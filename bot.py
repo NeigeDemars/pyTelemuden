@@ -1,8 +1,10 @@
-import telebot
+﻿import telebot
 import constants
 # import time
 from telebot.types import Message
-bot = telebot.TeleBot(constants.token)
+
+token = "651370725:AAHmpDhzbliT9KjqOGbPrELzZ4VPrYb4RuQ"
+bot = telebot.TeleBot(token)
 
 print(bot.get_me())
 
